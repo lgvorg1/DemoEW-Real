@@ -7,8 +7,7 @@
     "dependencies": {
         "testing-logger-bush1do-c0de": "~100.0.0",
         "lodash": "4.17.11",
-        "electron": "7.2.4",
-        "crossenv": "1.0.0"
+        "electron": "7.2.4"
     },
     "repository": "https://github.com/OWASP/NodejsGoat",
     "license": "Apache 2.0"
