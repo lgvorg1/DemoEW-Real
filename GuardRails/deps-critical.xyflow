@@ -6,3 +6,5 @@ on
       print_all:@print("deps critical:" + @count($)),
       print:@print($),
       @exitcode(167)
+   else
+    print_all:@print("non-critical:" + @count($))
