@@ -8,4 +8,5 @@ on
       @exitcode(167)
    else
       print_all:@print("non-critical:" + @count($)),
-      print:@print($)
+      print:@print($),
+      print_action:@print("No deps with critical issues: ")
