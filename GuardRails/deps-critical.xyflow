@@ -1,5 +1,5 @@
 on
-     suspectdeps
+     suspectdeps,deps
    when
      severity = critical
    then
