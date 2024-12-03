@@ -7,4 +7,5 @@ on
       print:@print($),
       @exitcode(167)
    else
-    print_all:@print("non-critical:" + @count($))
+      print_all:@print("non-critical:" + @count($)),
+      print:@print($)
